@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/RamiB1234/portfolio/static/css/main.da41bb43.chunk.css",
-    "main.js": "/RamiB1234/portfolio/static/js/main.e99e1a5b.chunk.js",
-    "main.js.map": "/RamiB1234/portfolio/static/js/main.e99e1a5b.chunk.js.map",
-    "runtime~main.js": "/RamiB1234/portfolio/static/js/runtime~main.d4f407e7.js",
-    "runtime~main.js.map": "/RamiB1234/portfolio/static/js/runtime~main.d4f407e7.js.map",
-    "static/css/2.b085df62.chunk.css": "/RamiB1234/portfolio/static/css/2.b085df62.chunk.css",
-    "static/js/2.0a66f0cd.chunk.js": "/RamiB1234/portfolio/static/js/2.0a66f0cd.chunk.js",
-    "static/js/2.0a66f0cd.chunk.js.map": "/RamiB1234/portfolio/static/js/2.0a66f0cd.chunk.js.map",
-    "index.html": "/RamiB1234/portfolio/index.html",
-    "precache-manifest.1a2faf7bf49336d4dc8432a7a35237b2.js": "/RamiB1234/portfolio/precache-manifest.1a2faf7bf49336d4dc8432a7a35237b2.js",
-    "service-worker.js": "/RamiB1234/portfolio/service-worker.js",
-    "static/css/2.b085df62.chunk.css.map": "/RamiB1234/portfolio/static/css/2.b085df62.chunk.css.map",
-    "static/css/main.da41bb43.chunk.css.map": "/RamiB1234/portfolio/static/css/main.da41bb43.chunk.css.map",
-    "static/media/slick-theme.css": "/RamiB1234/portfolio/static/media/slick.f97e3bbf.svg"
+    "main.css": "/portfolio/static/css/main.da41bb43.chunk.css",
+    "main.js": "/portfolio/static/js/main.cb587e39.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.cb587e39.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.5bba913d.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.5bba913d.js.map",
+    "static/css/2.a3889566.chunk.css": "/portfolio/static/css/2.a3889566.chunk.css",
+    "static/js/2.0a66f0cd.chunk.js": "/portfolio/static/js/2.0a66f0cd.chunk.js",
+    "static/js/2.0a66f0cd.chunk.js.map": "/portfolio/static/js/2.0a66f0cd.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.dd79301dd8e21aa78b6f2f07c0b4881e.js": "/portfolio/precache-manifest.dd79301dd8e21aa78b6f2f07c0b4881e.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.a3889566.chunk.css.map": "/portfolio/static/css/2.a3889566.chunk.css.map",
+    "static/css/main.da41bb43.chunk.css.map": "/portfolio/static/css/main.da41bb43.chunk.css.map",
+    "static/media/slick-theme.css": "/portfolio/static/media/slick.f97e3bbf.svg"
   }
 }
