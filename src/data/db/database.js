@@ -2,35 +2,30 @@ import Mock from "../mock";
 
 const database = {
   information: {
-    name: 'Devid Chester',
+    name: 'Rami Bukhari',
     aboutContent: "I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.",
-    age: 24,
-    phone: '',
-    nationality: 'American',
-    language: 'English, French',
-    email: '',
-    address: '121 King Street, Melbourne, Australia',
+    age: 31,
+    phone: '+966 599565705',
+    nationality: 'Saudi',
+    language: 'Arabic, English',
+    email: 'rbisthebest@hotmail.com',
+    address: 'Jeddah, North Abhor, Saudi Arabia',
     freelanceStatus: 'Available',
     socialLinks: {
-      facebook: 'https://facebook.com',
-      twitter: 'https://twitter.com',
+      facebook: '',
+      twitter: '',
       pinterest: '',
       behance: '',
-      linkedin: '',
+      linkedin: 'https://www.linkedin.com/in/rami-bukhari/',
       dribbble: '',
-      github: 'https://github.com'
+      github: 'https://github.com/RamiB1234'
     },
-    brandImage: '/images/brand-image.jpg',
-    aboutImage: '/images/about-image.jpg',
-    aboutImageLg: '/images/about-image-lg.jpg',
+    brandImage: process.env.PUBLIC_URL + '/images/brand-image.jpg',
+    aboutImage: process.env.PUBLIC_URL + '/images/about-image.jpg',
+    aboutImageLg: process.env.PUBLIC_URL + '/images/about-image-lg.jpg',
     cvfile: '/files/empty.pdf'
   },
   services: [
-    {
-      title: "Web Design",
-      icon: 'color-pallet',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
-    },
     {
       title: "Web Development",
       icon: 'code',
@@ -40,33 +35,30 @@ const database = {
       title: "Mobile Application",
       icon: 'mobile',
       details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
-    }
+    },
+    {
+      title: "Game Development",
+      icon: 'game',
+      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+    },
   ],
   reviews: [
     {
       id: 1,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam, aliquid maxime tempora.",
+      content: "I know Rami as a hard working and self-driven team player. He holds a strong programming and problem solving skills. It was really a pleasure working with him.",
       author: {
-        name: 'Burdette Turner',
-        designation: 'Web Developer, Abc Company'
+        name: 'Osama Ali Bin Mahfouz',
+        designation: 'Software Development Team Lead at Abdul Latif Jameel Group'
       }
     },
     {
       id: 2,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam.",
+      content: "I know Rami as a hard working and self-driven team player. He holds a strong programming and problem solving skills. It was really a pleasure working with him.",
       author: {
-        name: 'Susan Yost',
-        designation: 'Client'
+        name: 'Osama Ali Bin Mahfouz',
+        designation: 'Software Development Team Lead at Abdul Latif Jameel Group'
       }
     },
-    {
-      id: 3,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-      author: {
-        name: 'Irving Feeney',
-        designation: 'Fiverr Client'
-      }
-    }
   ],
   skills: [
     {
@@ -99,18 +91,18 @@ const database = {
       id: 1,
       title: "T-shirt Mockup",
       subtitle: "A beautiful t-shirt mockup.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
+      imageUrl: process.env.PUBLIC_URL + "/images/portfolio-image-1.jpg",
+      largeImageUrl: [process.env.PUBLIC_URL + "/images/portfolio-image-1-lg.jpg"],
       url: 'https://dribbble.com'
     },
     {
       id: 2,
       title: "Coffee Mug",
       subtitle: "Awesome coffee mug design.",
-      imageUrl: "/images/portfolio-image-4.jpg",
+      imageUrl: process.env.PUBLIC_URL + "/images/portfolio-image-4.jpg",
       largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
+        process.env.PUBLIC_URL + "/images/portfolio-image-4-lg.jpg",
+        process.env.PUBLIC_URL + "/images/portfolio-image-4-lg2.jpg"
       ],
       url: 'https://facebook.com'
     },
@@ -118,52 +110,52 @@ const database = {
       id: 3,
       title: "Tea & Coffee Mug",
       subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/portfolio-image-2.jpg",
+      imageUrl: process.env.PUBLIC_URL + "/images/portfolio-image-2.jpg",
       url: 'https://pinterest.com'
     },
     {
       id: 4,
       title: "Pen Holder",
       subtitle: "A pen holder with beautiful design.",
-      imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
+      imageUrl: process.env.PUBLIC_URL + "/images/portfolio-image-3.jpg",
+      largeImageUrl: [process.env.PUBLIC_URL + "/images/portfolio-image-3-lg.jpg"],
       url: '#'
     },
     {
       id: 5,
       title: "Mug",
       subtitle: "Mug with awesome style",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
+      imageUrl: process.env.PUBLIC_URL + "/images/portfolio-image-5.jpg",
+      largeImageUrl: [process.env.PUBLIC_URL + "/images/portfolio-image-5-lg.jpg"]
     },
     {
       id: 6,
       title: "Pendrive",
       subtitle: "Free pendrive mockup design.",
-      imageUrl: "/images/portfolio-image-6.jpg",
-      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"]
+      imageUrl: process.env.PUBLIC_URL + "/images/portfolio-image-6.jpg",
+      largeImageUrl: [process.env.PUBLIC_URL + "/images/portfolio-image-6-lg.jpg"]
     },
     {
       id: 7,
       title: "Beautiful Pendrive",
       subtitle: "Pendrive with great design & flexible.",
-      imageUrl: "/images/portfolio-image-7.jpg",
-      largeImageUrl: ["/images/portfolio-image-7-lg.jpg"],
+      imageUrl: process.env.PUBLIC_URL + "/images/portfolio-image-7.jpg",
+      largeImageUrl: [process.env.PUBLIC_URL + "/images/portfolio-image-7-lg.jpg"],
       url: 'https://twitter.com'
     },
     {
       id: 8,
       title: "Sticker",
       subtitle: "Clip sticker mockup design.",
-      imageUrl: "/images/portfolio-image-8.jpg",
-      largeImageUrl: ["/images/portfolio-image-8-lg.jpg"]
+      imageUrl: process.env.PUBLIC_URL + "/images/portfolio-image-8.jpg",
+      largeImageUrl: [process.env.PUBLIC_URL + "/images/portfolio-image-8-lg.jpg"]
     },
     {
       id: 9,
       title: "Packet",
       subtitle: "Beautiful packet & product design.",
-      imageUrl: "/images/portfolio-image-9.jpg",
-      largeImageUrl: ["/images/portfolio-image-9-lg.jpg"]
+      imageUrl: process.env.PUBLIC_URL + "/images/portfolio-image-9.jpg",
+      largeImageUrl: [process.env.PUBLIC_URL + "/images/portfolio-image-9-lg.jpg"]
     }
   ],
   experience: {
@@ -269,9 +261,9 @@ const database = {
     }
   ],
   contactInfo: {
-    phoneNumbers: ['+012-3456-7891', '+012-3456-7892'],
-    emailAddress: ['admin.sitename@example.com', 'info.sitename@example.com'],
-    address: "121 King Street, Melbourne, Victoria 3000, Australia"
+    phoneNumbers: ['+966 599565705'],
+    emailAddress: ['rbisthebest@hotmail.com'],
+    address: "Jeddah, North Abhor, Saudi Arabia"
   }
 }
 

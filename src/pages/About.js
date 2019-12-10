@@ -19,7 +19,7 @@ function About(){
     infinite: true,
     arrows: false,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: 1,
     slidesToScroll: 2,
     autoplay: true,
     autoplaySpeed: 6000,
@@ -137,7 +137,7 @@ function About(){
       </div>
       <div className="mi-review-area mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
-          <Sectiontitle title="Reviews" />
+          <Sectiontitle title="Recommendations" />
           <div className="row justify-content-center">
             <div className="col-12">
               <Slider className="mi-testimonial-slider" {...sliderSettings}>
