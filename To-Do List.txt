@@ -1,0 +1,9 @@
+
+
+- Update the landing page content
+- Update the picture in About
+- Update services
+- Update working experience
+- update education
+- add certifications
+- add sending email functionality

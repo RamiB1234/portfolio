@@ -13,7 +13,7 @@ const database = {
     freelanceStatus: 'Available',
     socialLinks: {
       facebook: '',
-      twitter: '',
+      twitter: 'https://twitter.com/RamiBokhari',
       pinterest: '',
       behance: '',
       linkedin: 'https://www.linkedin.com/in/rami-bukhari/',
@@ -23,7 +23,7 @@ const database = {
     brandImage: process.env.PUBLIC_URL + '/images/brand-image.jpg',
     aboutImage: process.env.PUBLIC_URL + '/images/about-image.jpg',
     aboutImageLg: process.env.PUBLIC_URL + '/images/about-image-lg.jpg',
-    cvfile: '/files/empty.pdf'
+    cvfile: '/files/resume.pdf'
   },
   services: [
     {
