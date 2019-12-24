@@ -1,7 +1,7 @@
 
 
-- Update the landing page content
-- Update the picture in About
+- Update the landing page content -- Done
+- Update the picture in About -- Done
 - Update services
 - Update working experience
 - update education
