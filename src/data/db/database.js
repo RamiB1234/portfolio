@@ -30,17 +30,17 @@ const database = {
     {
       title: "Web Development",
       icon: 'code',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "Providing full-stack development from backend to front end, using up to date web technologies."
     },
     {
       title: "Mobile Application",
       icon: 'mobile',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "Providing mobile app development for both iOS and android platforms using React-Native."
     },
     {
       title: "Game Development",
       icon: 'game',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "Providing game development services. Ranging from simple 2D games to complex 3D."
     },
   ],
   reviews: [
