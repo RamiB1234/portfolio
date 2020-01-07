@@ -63,16 +63,16 @@ const database = {
   ],
   skills: [
     {
-      title: "HTML5",
-      value: 95
+      title: ".NET Framework",
+      value: 80
     },
     {
-      title: "CSS3",
+      title: "MVC Design Pattern",
       value: 90
     },
     {
-      title: "Javascript",
-      value: 70
+      title: "C#",
+      value: 85
     },
     {
       title: "jQuery",
@@ -80,11 +80,28 @@ const database = {
     },
     {
       title: "ReactJS",
+      value: 75
+    },
+    ,
+    {
+      title: "React-Native",
+      value: 65
+    },
+    {
+      title: "Javascript",
       value: 80
     },
     {
-      title: "Photoshop",
-      value: 65
+      title: "SQL",
+      value: 75
+    },
+    {
+      title: "HTML & CSS",
+      value: 90
+    },
+    {
+      title: "Git",
+      value: 85
     }
   ],
   portfolios: [
@@ -165,7 +182,7 @@ const database = {
         id: 1,
         year: "2019 - Present",
         position: "IT Application Developer",
-        company: "Prince Mohammad Bin Salman College of Business & Entrepreneurship - MBSC",
+        company: "Prince Mohammad Bin Salman College of Business & Entrepreneurship (MBSC)",
         details: "My job is to develop new applications based on top management requirements "+
         "and to maintain existing applications as well. I’m also working on integrating solutions together "+
         "using WCF or REST APIs. The primary technology I’m using is ASP.NET Core / ASP.NET 4.5 for backend and React framework for frontend."
