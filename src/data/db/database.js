@@ -163,24 +163,41 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: "2018 - Present",
-        position: "Frontend Web Developer",
-        company: "Abc Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2019 - Present",
+        position: "IT Application Developer",
+        company: "Prince Mohammad Bin Salman College of Business & Entrepreneurship - MBSC",
+        details: "My job is to develop new applications based on top management requirements "+
+        "and to maintain existing applications as well. I’m also working on integrating solutions together "+
+        "using WCF or REST APIs. The primary technology I’m using is ASP.NET Core / ASP.NET 4.5 for backend and React framework for frontend."
       },
       {
         id: 2,
-        year: "2016 - 2018",
-        position: "Frontend Web Developer",
-        company: "CBA Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2018 - 2019",
+        position: "Programmer",
+        company: "Dar Al-Fikr Schools",
+        details: "My job was to develop a comprehensive School Management System (S.M.S) for the school. "+
+        "That includes but not limited to: Student Affairs, Human Resources, Helpdesk System, Grading System, "+
+        "Inventory and Purchasing System. I was mainly using ASP.NET Core MVC 2 as the main framework for the system. "+
+        "I was in charge of complete development cycle starting with requirement gathering, system design, coding, releasing and testing."
       },
       {
         id: 3,
+        year: "2016 - 2018",
+        position: "Database Analyst & Support services Specialist",
+        company: "Allied Cooperative Insurance Group (ACIG)",
+        details: "My job was to be a support party between our sales department and our vendors. "+
+        "We used to take business requirements from management and coordinate with outsource vendors to deliver a solution. "+
+        "And used to prepare management reports. I was also in charge of troubleshooting and resolving "+
+        "day to day software issues.  And occasionally developed software to smooth company business"
+      },
+      {
+        id: 4,
         year: "2014 - 1016",
-        position: "UI/UX Designer",
-        company: "Example Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        position: "Software Developer",
+        company: "Abdul Latif Jameel Finance",
+        details: "We were using Microsoft technologies to develop an in house system to handle all the financial "+
+        "operations at the branches, mainly ASP.net MVC and MS SQL. My job was to translate the business "+
+        "requirements to applications. All new software updates go through a QA test before release."
       }
     ],
     educationExperience: [
