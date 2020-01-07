@@ -4,7 +4,8 @@ import "./App.scss";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Resumes from "./pages/Resumes";
-import Portfolios from "./pages/Portfolios";
+import GamePortfolio from "./pages/GamePortfolio";
+import WebPortfolio from "./pages/WebPortfolio";
 import Contact from "./pages/Contact";
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
         <Route path="/resume" component={Resumes} />
-        <Route path="/portfolios" component={Portfolios} />
+        <Route path="/games" component={GamePortfolio} />
+        <Route path="/webapps" component={WebPortfolio} />
         <Route path="/contact" component={Contact} />
       </Switch>
     </HashRouter>
