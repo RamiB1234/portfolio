@@ -85,7 +85,7 @@ function About(){
                   I am <span className="color-theme">{information.name}</span>
                 </h3>
                 <p>
-                I'm a passionate programmer, working as a full time web developer in the day, and make games in the night. Game development is my number one passion in life
+                I'm a passionate programmer, I develop web applications during the day, and make games at night. Game development is my number one passion in life
                 </p>
                 <ul>
                   {!information.name ? null : <li>

@@ -3,7 +3,7 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'Rami Bukhari',
-    aboutContent: "I'm a passionate programmer, working as a full time web developer in the day, and make games in the night. Game development is my "+
+    aboutContent: "I'm a passionate programmer, I develop web applications during the day, and make games at night. Game development is my "+
     "number one passion in life",
     age: 31,
     phone: '+966 599565705',
