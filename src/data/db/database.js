@@ -30,17 +30,17 @@ const database = {
     {
       title: "Web Development",
       icon: 'code',
-      details: "Providing full-stack development from backend to front end, using up to date web technologies."
+      details: "Offering full-stack development services from backend to front end, using up to date web technologies."
     },
     {
       title: "Mobile Application",
       icon: 'mobile',
-      details: "Providing mobile app development for both iOS and android platforms using React-Native."
+      details: "Offering mobile app development services for both iOS and android platforms using React-Native."
     },
     {
       title: "Game Development",
       icon: 'game',
-      details: "Providing game development services. Ranging from simple 2D games to complex 3D."
+      details: "Offering game development services. Ranging from simple 2D games to complex 3D."
     },
   ],
   reviews: [
