@@ -2,8 +2,8 @@
 
 - Update the landing page content -- Done
 - Update the picture in About -- Done
-- Update services
-- Update working experience
-- update education
+- Update services -- Done
+- Update working experience -- Done
+- update education -- Done
 - add certifications
-- add sending email functionality
+- add sending email functionality -- Done

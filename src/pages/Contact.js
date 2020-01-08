@@ -34,17 +34,19 @@ function Contact(){
     } else{
       setError(false);
 
-      window.Email.send({
-        Host: "smtp-mail.outlook.com",
-        Username : "rbisthebest@hotmail.com",
-        Password : "solidus2011",
-        To : 'rbisthebest@hotmail.com',
-        From : "rbisthebest@hotmail.com",
-        Subject : "Contact Request",
-        Body : message
-      }).then(
-        setMessage('You message has been sent!!!')
-        )
+      var templateParams = {
+        to_name: 'Rami',
+        from_name: formdata.name,
+        from_email: formdata.email,
+        subject: formdata.subject,
+        message_html: formdata.message
+
+    };
+     
+    window.emailjs.send('gmail', 'template_n6CTJAXo', templateParams)
+        .then(function() {
+          setMessage('You message has been sent!!!')
+        })
     }
   }
   const handleChange = (event) => {
