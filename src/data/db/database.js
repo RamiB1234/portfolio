@@ -107,13 +107,15 @@ const database = {
   portfolios: [
     {
       id: 1,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
-      imageUrl: process.env.PUBLIC_URL + "/images/portfolio-image-1.jpg",
-      largeImageUrl: [process.env.PUBLIC_URL + "/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
+      title: "Descend Below the Crypts",
+      role: "Team member",
+      genre: "Isometric adventure",
+      responsibilities: "Minimap, fast walk debug feature, invulnerable cheat, character positions on minimap, HP/MP HUD bars, key & gold display, inventory mouse support, level loading bug fix, animation code improvements, tooltip feature, abilities cooldown, assorted bug fixes, heal effect, melee attacks, abilities key shortcuts, shield item, enemy treasure drop, fireball spell, cleric heal unlock, heal effect, freeze spell, attack range",
+      imageUrl: process.env.PUBLIC_URL + "/images/descend.gif",
+      url: 'https://itch.io/queue/c/188585/hometeam-gamedev-formerly-gamkedo-club?game_id=566053',
+      git: 'https://github.com/gamkedo-la/Descend-Below-the-Crypts'
     },
-    {
+    /*{
       id: 2,
       title: "Coffee Mug",
       subtitle: "Awesome coffee mug design.",
@@ -123,58 +125,7 @@ const database = {
         process.env.PUBLIC_URL + "/images/portfolio-image-4-lg2.jpg"
       ],
       url: 'https://facebook.com'
-    },
-    {
-      id: 3,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: process.env.PUBLIC_URL + "/images/portfolio-image-2.jpg",
-      url: 'https://pinterest.com'
-    },
-    {
-      id: 4,
-      title: "Pen Holder",
-      subtitle: "A pen holder with beautiful design.",
-      imageUrl: process.env.PUBLIC_URL + "/images/portfolio-image-3.jpg",
-      largeImageUrl: [process.env.PUBLIC_URL + "/images/portfolio-image-3-lg.jpg"],
-      url: '#'
-    },
-    {
-      id: 5,
-      title: "Mug",
-      subtitle: "Mug with awesome style",
-      imageUrl: process.env.PUBLIC_URL + "/images/portfolio-image-5.jpg",
-      largeImageUrl: [process.env.PUBLIC_URL + "/images/portfolio-image-5-lg.jpg"]
-    },
-    {
-      id: 6,
-      title: "Pendrive",
-      subtitle: "Free pendrive mockup design.",
-      imageUrl: process.env.PUBLIC_URL + "/images/portfolio-image-6.jpg",
-      largeImageUrl: [process.env.PUBLIC_URL + "/images/portfolio-image-6-lg.jpg"]
-    },
-    {
-      id: 7,
-      title: "Beautiful Pendrive",
-      subtitle: "Pendrive with great design & flexible.",
-      imageUrl: process.env.PUBLIC_URL + "/images/portfolio-image-7.jpg",
-      largeImageUrl: [process.env.PUBLIC_URL + "/images/portfolio-image-7-lg.jpg"],
-      url: 'https://twitter.com'
-    },
-    {
-      id: 8,
-      title: "Sticker",
-      subtitle: "Clip sticker mockup design.",
-      imageUrl: process.env.PUBLIC_URL + "/images/portfolio-image-8.jpg",
-      largeImageUrl: [process.env.PUBLIC_URL + "/images/portfolio-image-8-lg.jpg"]
-    },
-    {
-      id: 9,
-      title: "Packet",
-      subtitle: "Beautiful packet & product design.",
-      imageUrl: process.env.PUBLIC_URL + "/images/portfolio-image-9.jpg",
-      largeImageUrl: [process.env.PUBLIC_URL + "/images/portfolio-image-9-lg.jpg"]
-    }
+    },*/
   ],
   experience: {
     workingExperience: [
