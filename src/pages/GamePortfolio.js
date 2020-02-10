@@ -6,10 +6,10 @@ import Sectiontitle from "../components/Sectiontitle";
 import Layout from "../components/Layout";
 
 function Portfolios() {
-  const [portfolios, setPortfoios] = useState([]);
+  const [gamePortfolios, setPortfoios] = useState([]);
 
   useEffect(() => {
-    axios.get('/api/portfolios')
+    axios.get('/api/gamePortfolios')
       .then( response => {
         setPortfoios(response.data);
       })
@@ -21,7 +21,7 @@ function Portfolios() {
         <div className="container">
           <Sectiontitle title="Game Development" />
           <div className="row mt-30-reverse">
-            {portfolios.map(portfolio => (
+            {gamePortfolios.map(portfolio => (
               <TrackVisibility once offset={200} className="col-lg-4 col-md-6 col-12 mt-30" key={portfolio.id}>
                 <Portfolio content={portfolio}/>
               </TrackVisibility>

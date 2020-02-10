@@ -64,18 +64,11 @@ function About(){
           <Sectiontitle title="About Me" />
           <div className="row">
             <div className="col-lg-6">
-              <div className="mi-about-image">
+              <div>
                 <img
                   src={information.aboutImage}
                   alt="about"
-                  onClick={() => handleToggler(!toggler)}
-                />
-                <span className="mi-about-image-icon">
-                  <Icon.ZoomIn />
-                </span>
-                <FsLightbox
-                  toggler={toggler}
-                  sources={[information.aboutImageLg]}
+                  //onClick={() => handleToggler(!toggler)}
                 />
               </div>
             </div>
@@ -83,7 +76,7 @@ function About(){
               <div className="mi-about-content">
                 <h3>
                   I am <span className="color-theme">{information.name}</span>
-                </h3>
+                </h3><br/>
                 <p>
                 I'm a passionate programmer, I develop web applications during the day, and make games at night. Game development is my number one passion in life
                 </p>
@@ -113,6 +106,7 @@ function About(){
                     <b>Freelance</b> {information.freelanceStatus}
                   </li>}
                 </ul>
+                <br/><br/>
                 <a href={information.cvfile} className="mi-button" target='_blank'>Download CV</a>
               </div>
             </div>

@@ -104,10 +104,11 @@ const database = {
       value: 85
     }
   ],
-  portfolios: [
+  gamePortfolios: [
     {
       id: 1,
       title: "Descend Below the Crypts",
+      releaseDate: "February 2020",
       engine: "HTML5/Javascript",
       role: "Team member",
       genre: "Isometric adventure",
@@ -127,6 +128,17 @@ const database = {
       ],
       url: 'https://facebook.com'
     },*/
+  ],
+  webPortfolios: [
+    {
+      id: 1,
+      title: "Would you Rather",
+      tech: "ReactJS and Redux",
+      subtitle: "Would you Rather is a game that let users answer questions by selecting one of two options. Users can also post new questions and see leaderboard that has number of activities each user has made.",
+      imageUrl: process.env.PUBLIC_URL + "/images/would.gif",
+      url: 'https://ramib1234.github.io/would-you-rather/',
+      git: 'https://github.com/RamiB1234/would-you-rather'
+    },
   ],
   experience: {
     workingExperience: [
@@ -269,8 +281,13 @@ Mock.onGet("/api/skills").reply(config => {
   return [200, response];
 });
 
-Mock.onGet("/api/portfolios").reply(config => {
-  const response = database.portfolios;
+Mock.onGet("/api/gamePortfolios").reply(config => {
+  const response = database.gamePortfolios;
+  return [200, response];
+});
+
+Mock.onGet("/api/webPortfolios").reply(config => {
+  const response = database.webPortfolios;
   return [200, response];
 });
 
