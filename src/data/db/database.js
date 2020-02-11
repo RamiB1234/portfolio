@@ -134,7 +134,7 @@ const database = {
       id: 1,
       title: "Would you Rather",
       tech: "ReactJS and Redux",
-      subtitle: "Would you Rather is a game that let users answer questions by selecting one of two options. Users can also post new questions and see leaderboard that has number of activities each user has made.",
+      subtitle: "Would you Rather is a web app that lets users answer questions by selecting one of two options. Users can also post new questions and see leaderboard that has number of activities each user has made.",
       imageUrl: process.env.PUBLIC_URL + "/images/would.gif",
       url: 'https://ramib1234.github.io/would-you-rather/',
       git: 'https://github.com/RamiB1234/would-you-rather'
