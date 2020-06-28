@@ -107,6 +107,18 @@ const database = {
   gamePortfolios: [
     {
       id: 1,
+      title: "Mercurial Luminance",
+      releaseDate: "April 2020",
+      engine: "Unity",
+      role: "Team member",
+      genre: "Exploration",
+      responsibilities: 'Intro manager ("Ken Burns" functionality), zoom support',
+      imageUrl: process.env.PUBLIC_URL + "/images/Mercurial_Luminance.gif",
+      url: 'https://itch.io/queue/c/188585/hometeam-gamedev?game_id=616422',
+      git: 'https://github.com/gamkedo-la/mercurial-luminance'
+    },
+    {
+      id: 2,
       title: "Descend Below the Crypts",
       releaseDate: "February 2020",
       engine: "HTML5/Javascript",
