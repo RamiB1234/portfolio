@@ -113,7 +113,7 @@ const database = {
       role: "Programmer/Designer",
       genre: "2D Party Game",
       responsibilities: 'Deisgnd and implemented all game systems and mechanics',
-      imageUrl: process.env.PUBLIC_URL + "/images/Mercurial_Luminance.gif",
+      imageUrl: process.env.PUBLIC_URL + "/images/skating.gif",
       url: 'https://store.steampowered.com/app/1062130/Gun_Skaters/',
     },
     {
@@ -129,7 +129,7 @@ const database = {
       git: 'https://github.com/gamkedo-la/mercurial-luminance'
     },
     {
-      id: 2,
+      id: 3,
       title: "Descend Below the Crypts",
       releaseDate: "February 2020",
       engine: "HTML5/Javascript",
@@ -158,7 +158,7 @@ const database = {
       title: "My Reads",
       tech: "ReactJS",
       subtitle: "In MyReads app the user have a virtual book library where he/she can move the books between shelves. The updates are dynamic and changes are saved on a server for a short time",
-      imageUrl: process.env.PUBLIC_URL + "/images/would.gif",
+      imageUrl: process.env.PUBLIC_URL + "/images/MyReads.gif",
       url: 'https://ramib1234.github.io/my-reads/',
       git: 'https://github.com/RamiB1234/my-reads'
     },
@@ -176,7 +176,7 @@ const database = {
       title: "Personal Blog Website",
       tech: "HTML, CSS, Flexbox, CSS Grid",
       subtitle: "Utilize my HTML and CSS skills to build out a personal blog website, including custom images, layout, and styling. Along with webpage design considerations. The blog has a main page that has cards representing blog posts. Each blog post has an article, about the author, links, related post links and share buttons",
-      imageUrl: process.env.PUBLIC_URL + "/images/would.gif",
+      imageUrl: process.env.PUBLIC_URL + "/images/blog.gif",
       url: 'https://ramib1234.github.io/personal-blog-website/index.html',
       git: 'https://github.com/RamiB1234/personal-blog-website'
     },
@@ -185,7 +185,7 @@ const database = {
       title: "Landing Page",
       tech: "HTML, CSS, Vanilla Javascript",
       subtitle: "This is a multi-section landing page, with a dynamically updating navigational menu based on the amount of content that is added to the page",
-      imageUrl: process.env.PUBLIC_URL + "/images/would.gif",
+      imageUrl: process.env.PUBLIC_URL + "/images/landing.gif",
       url: 'https://ramib1234.github.io/landing-page/index.html',
       git: 'https://github.com/RamiB1234/landing-page'
     },
@@ -193,8 +193,8 @@ const database = {
       id: 5,
       title: "Weather Journal",
       tech: "HTML, CSS, Vanilla Javascript, Openweathermap API, Node.js/Express",
-      subtitle: "This is a project that fetches weather information from an external API by entering a desired ZIP code. It also makes other requests to save and get the data from a local express server. This is a demonstration of chaining Promise requests to make API calls then update the UI dynamically",
-      imageUrl: process.env.PUBLIC_URL + "/images/would.gif",
+      subtitle: "This is an app that fetches weather information from an external API by entering a desired ZIP code. It also makes other requests to save and get the data from a local express server. This is a demonstration of chaining Promise requests to make API calls then update the UI dynamically",
+      imageUrl: process.env.PUBLIC_URL + "/images/weather.gif",
       git: 'https://github.com/RamiB1234/Weather-Journal'
     },
     
