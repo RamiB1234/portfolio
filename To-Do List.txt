@@ -1,9 +1,6 @@
 
 
-- Update the landing page content -- Done
-- Update the picture in About -- Done
-- Update services -- Done
-- Update working experience -- Done
-- update education -- Done
-- add certifications
-- add sending email functionality -- Done
+- Add resturant front end and API with GIFs
+- Update Gun Skaters GIF
+- Add platforms to games
+- Add "Is commercial" to games
