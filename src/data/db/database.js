@@ -156,8 +156,26 @@ const database = {
     },*/
   ],
   webPortfolios: [
-    {
-      id: 1,
+      {
+        id: 1,
+        title: "Travel-Buddy",
+        tech: "HTML, CSS, Javascript, Webpack",
+        subtitle: "This is an app that lets the user to enter traveling date and destination to receive weather information of the traveling date",
+        imageUrl: process.env.PUBLIC_URL + "/images/travel.gif",
+        url: 'http://travel-buddy-heroku.herokuapp.com/',
+        git: 'https://github.com/RamiB1234/Travel-Buddy/'
+      },
+      {
+        id: 2,
+        title: "NLP News Evaluator",
+        tech: "HTML, CSS, Javascript, Webpack",
+        subtitle: "Building a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites",
+        imageUrl: process.env.PUBLIC_URL + "/images/nlp.gif",
+        url: 'https://npl-evaluater.herokuapp.com/',
+        git: 'https://github.com/RamiB1234/evaluate-news-NLP/'
+      },
+      {
+      id: 3,
       title: "Resturant Reservation - Front End",
       tech: "ReactJS",
       subtitle: "This is the front-end part of a resturant reservation system. It's developed with ReactJS framework",
@@ -166,7 +184,7 @@ const database = {
       git: 'https://github.com/RamiB1234/resturant-front/'
     },
     {
-      id: 2,
+      id: 4,
       title: "Resturant Reservation - API",
       tech: "ASP.NET Core 2.1 MVC",
       subtitle: "This is the backend part of a resturant reservation system. It's developed with ASP.NET Core 2.1 MVC framework",
@@ -175,7 +193,7 @@ const database = {
       git: 'https://github.com/RamiB1234/ResturantAPI/'
     },
     {
-      id: 3,
+      id: 5,
       title: "My Reads",
       tech: "ReactJS",
       subtitle: "In MyReads app the user have a virtual book library where he/she can move the books between shelves. The updates are dynamic and changes are saved on a server for a short time",
@@ -184,7 +202,7 @@ const database = {
       git: 'https://github.com/RamiB1234/my-reads'
     },
     {
-      id: 4,
+      id: 6,
       title: "Would you Rather",
       tech: "ReactJS and Redux",
       subtitle: "Would you Rather is a web app that lets users answer questions by selecting one of two options. Users can also post new questions and see leaderboard that has number of activities each user has made",
@@ -193,7 +211,7 @@ const database = {
       git: 'https://github.com/RamiB1234/would-you-rather'
     },
     {
-      id: 5,
+      id: 7,
       title: "Personal Blog Website",
       tech: "HTML, CSS, Flexbox, CSS Grid",
       subtitle: "Utilize my HTML and CSS skills to build out a personal blog website, including custom images, layout, and styling. Along with webpage design considerations. The blog has a main page that has cards representing blog posts. Each blog post has an article, about the author, links, related post links and share buttons",
@@ -202,7 +220,7 @@ const database = {
       git: 'https://github.com/RamiB1234/personal-blog-website'
     },
     {
-      id: 6,
+      id: 8,
       title: "Landing Page",
       tech: "HTML, CSS, Vanilla Javascript",
       subtitle: "This is a multi-section landing page, with a dynamically updating navigational menu based on the amount of content that is added to the page",
@@ -211,7 +229,7 @@ const database = {
       git: 'https://github.com/RamiB1234/landing-page'
     },
     {
-      id: 7,
+      id: 9,
       title: "Weather Journal",
       tech: "HTML, CSS, Vanilla Javascript, Openweathermap API, Node.js/Express",
       subtitle: "This is an app that fetches weather information from an external API by entering a desired ZIP code. It also makes other requests to save and get the data from a local express server. This is a demonstration of chaining Promise requests to make API calls then update the UI dynamically",
@@ -264,18 +282,29 @@ const database = {
     educationExperience: [
       {
         id: 1,
-        year: "2018 - 2019",
-        graduation: "React Nanodegree",
+        year: "2020",
+        graduation: "Front-End Development Nanodegree",
         university: "Udacity",
-        details: "I learned how to build declarative UIs for the web with React, and for iOS and Android with React Native." +
-        "I also learned how to manage state more predictably with Redux."
+        details: "I learned how to to construct responsive websites using CSS, Flexbox and CSS Grid, develop interactive websites and UI" +
+        "applications using JavaScript and HTML, and connect a web application to backend server data using JavaScript.",
+        download: '/files/FEND.pdf'
       },
       {
         id: 2,
+        year: "2019",
+        graduation: "React Nanodegree",
+        university: "Udacity",
+        details: "I learned how to build declarative UIs for the web with React, and for iOS and Android with React Native." +
+        "I also learned how to manage state more predictably with Redux.",
+        download: '/files/Udacity React.pdf'
+      },
+      {
+        id: 3,
         year: "2008 - 2013",
         graduation: "Bachelor of Science, Electrical Engineering",
         university: "King AbdulAziz University",
-        details: "Graduation Project: portable console which I designed, built both hardware and software. Using microcontrollers"
+        details: "Graduation Project: portable console which I designed, built both hardware and software. Using microcontrollers",
+        download: ''
       }
     ]
   },

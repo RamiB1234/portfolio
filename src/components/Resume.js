@@ -1,7 +1,7 @@
 import React from "react";
 
 function Resume(props) {
-  const {year, position, graduation, university, company, details} = props.resumeData;
+  const {year, position, graduation, university, company, details, download} = props.resumeData;
   return (
     <div className="mi-resume mt-30">
       <div className="mi-resume-summary">
@@ -11,6 +11,7 @@ function Resume(props) {
         <h5>{position || graduation}</h5>
         <h6 className="mi-resume-company">{company || university}</h6>
         <p>{details}</p>
+        {download=='' ||  download==null ? null : <a href={download} className="btn btn-primary" target='_blank'>Download Certificate</a>}
       </div>
     </div>
   );
