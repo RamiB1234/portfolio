@@ -155,6 +155,15 @@ const database = {
       url: 'https://facebook.com'
     },*/
   ],
+  cppPortfolios: [
+    {
+      id: 1,
+      title: "OpenStreetMap-Route-Planner",
+      subtitle: "A C++ project that uses real map data from OpenStreetMap and implements A* search algorithm to find the shortest path between 2 points that the user enters ",
+      imageUrl: process.env.PUBLIC_URL + "/images/map.png",
+      git: 'https://github.com/RamiB1234/OpenStreetMap-Route-Planner'
+    },
+  ],
   webPortfolios: [
       {
         id: 1,
@@ -397,6 +406,11 @@ Mock.onGet("/api/gamePortfolios").reply(config => {
 
 Mock.onGet("/api/webPortfolios").reply(config => {
   const response = database.webPortfolios;
+  return [200, response];
+});
+
+Mock.onGet("/api/cppPortfolios").reply(config => {
+  const response = database.cppPortfolios;
   return [200, response];
 });
 

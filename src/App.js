@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Resumes from "./pages/Resumes";
 import GamePortfolio from "./pages/GamePortfolio";
 import WebPortfolio from "./pages/WebPortfolio";
+import CppPortfolio from "./pages/CppPortfolio";
 import Contact from "./pages/Contact";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/resume" component={Resumes} />
         <Route path="/games" component={GamePortfolio} />
         <Route path="/webapps" component={WebPortfolio} />
+        <Route path="/cpp" component={CppPortfolio} />
         <Route path="/contact" component={Contact} />
       </Switch>
     </HashRouter>
