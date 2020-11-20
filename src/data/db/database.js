@@ -163,6 +163,13 @@ const database = {
       imageUrl: process.env.PUBLIC_URL + "/images/map.png",
       git: 'https://github.com/RamiB1234/OpenStreetMap-Route-Planner'
     },
+    {
+      id: 2,
+      title: "Linux-System-Monitor",
+      subtitle: "A Linux process manager that is written in C++, it's similar to htop Linux program. It shows system information, processor information and running processes information",
+      imageUrl: process.env.PUBLIC_URL + "/images/monitor.png",
+      git: 'https://github.com/RamiB1234/linux-system-monitor'
+    },
   ],
   webPortfolios: [
       {
