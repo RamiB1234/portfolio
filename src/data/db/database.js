@@ -184,6 +184,53 @@ const database = {
       git: 'https://github.com/RamiB1234/linux-system-monitor'
     },
   ],
+  awards: [
+    {
+      id: 1,
+      title: "Hope Hackathon",
+      awardDate: "May 2020",
+      subtitle: "I have received 1st winner prize with my entry game 'Gun Skaters'. The hackathon had more than 15,000 ideas from around the world and my game has won 1st place in the eGaming category",
+      imageUrl: process.env.PUBLIC_URL + "/images/hackathon1st.PNG",
+      largeImageUrl: [
+        process.env.PUBLIC_URL + "/images/hackathon1st.PNG",
+        process.env.PUBLIC_URL + "/images/hackathon1st.PNG"
+      ],
+      url: 'https://hopehackathon.com/'
+    },
+    {
+      id: 2,
+      title: "Nintendo Certified Developer",
+      awardDate: "June 2020",
+      subtitle: "I have pitched my award winning game to Nintendo to release it on the Nintendo Switch. It was approved!!",
+      imageUrl: process.env.PUBLIC_URL + "/images/Switch.jpg",
+      largeImageUrl: [
+        process.env.PUBLIC_URL + "/images/Switch.jpg",
+        process.env.PUBLIC_URL + "/images/Switch.jpg"
+      ]
+    },
+    {
+      id: 3,
+      title: "Game Development Training",
+      awardDate: "November 2020",
+      subtitle: "I have completed the 3rd Game Development training with Mr. Ken Watanabe (Ex Nintendo Programmer who worked on Splatoon 3) where we learned game development best practices ",
+      imageUrl: process.env.PUBLIC_URL + "/images/gameDev.PNG",
+      largeImageUrl: [
+        process.env.PUBLIC_URL + "/images/gameDev.PNG",
+        process.env.PUBLIC_URL + "/images/gameDev.PNG"
+      ]
+    },
+    {
+      id: 4,
+      title: "Japanese Language L-1",
+      awardDate: "November 2020",
+      subtitle: "I have completed level 1 of Japanese language course, where I learned basic Japanese and Hiragana alphabets",
+      imageUrl: process.env.PUBLIC_URL + "/images/japaneselvl1.PNG",
+      largeImageUrl: [
+        process.env.PUBLIC_URL + "/images/japaneselvl1.PNG",
+        process.env.PUBLIC_URL + "/images/japaneselvl1.PNG"
+      ]
+    },
+  ],
   webPortfolios: [
       {
         id: 1,
@@ -431,6 +478,11 @@ Mock.onGet("/api/webPortfolios").reply(config => {
 
 Mock.onGet("/api/cppPortfolios").reply(config => {
   const response = database.cppPortfolios;
+  return [200, response];
+});
+
+Mock.onGet("/api/awards").reply(config => {
+  const response = database.awards;
   return [200, response];
 });
 

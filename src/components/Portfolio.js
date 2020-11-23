@@ -4,7 +4,7 @@ import FsLightbox from "fslightbox-react";
 
 function Portfolio(props) {
   const [toggler, setToggler] = useState(false);
-  const {title, releaseDate, tech, engine, subtitle, role, genre, responsibilities, platforms,
+  const {title, awardDate,  releaseDate, tech, engine, subtitle, role, genre, responsibilities, platforms,
      imageUrl, largeImageUrl, url, git} = props.content;
   
   const handleToggler = (value) => {
@@ -39,6 +39,7 @@ function Portfolio(props) {
         </a>
       </h5>}
       {tech ? <h6><b>Technologies: </b>{tech}</h6> : null}
+      {awardDate ? <h6><b>Award Date: </b>{awardDate}</h6> : null}
       {subtitle ? <h6><b>About: </b>{subtitle}</h6> : null}
       {releaseDate ? <h6><b>Release Date: </b>{releaseDate}</h6> : null}
       {platforms ? <h6><b>Platforms: </b>{platforms}</h6> : null}
