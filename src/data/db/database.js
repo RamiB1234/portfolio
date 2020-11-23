@@ -123,7 +123,7 @@ const database = {
       releaseDate: "November 2020",
       engine: "Unity",
       role: "Team Member",
-      genre: "Exploration",
+      genre: "Space Shooter",
       platforms: "WebGL",
       responsibilities: 'Pause menu, health bar, sounds (shot, low health warning, hit, powerup ready, depleted energy, switch), player destruction bug fix, restart functionality, game over menu',
       imageUrl: process.env.PUBLIC_URL + "/images/solar.gif",
