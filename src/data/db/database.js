@@ -199,6 +199,17 @@ const database = {
     },
     {
       id: 2,
+      title: "IGN ME Review",
+      awardDate: "June 2020",
+      subtitle: "IGN ME has reviewd a beta version of my game Gun Skaters and gave it a good score of 7/10",
+      imageUrl: process.env.PUBLIC_URL + "/images/ign.png",
+      largeImageUrl: [
+        process.env.PUBLIC_URL + "/images/ign.png",
+        process.env.PUBLIC_URL + "/images/ign.png"
+      ]
+    },
+    {
+      id: 3,
       title: "Nintendo Certified Developer",
       awardDate: "June 2020",
       subtitle: "I have pitched my award winning game to Nintendo to release it on the Nintendo Switch. It was approved!!",
@@ -209,10 +220,10 @@ const database = {
       ]
     },
     {
-      id: 3,
+      id: 4,
       title: "Game Development Training",
       awardDate: "November 2020",
-      subtitle: "I have completed the 3rd Game Development training with Mr. Ken Watanabe (Ex Nintendo Programmer who worked on Splatoon 3) where we learned game development best practices ",
+      subtitle: "I have completed the 3rd Game Development training with Mr. Ken Watanabe (Ex Nintendo Programmer who worked on Splatoon and Pikmin 3) where we learned game development best practices ",
       imageUrl: process.env.PUBLIC_URL + "/images/gameDev.PNG",
       largeImageUrl: [
         process.env.PUBLIC_URL + "/images/gameDev.PNG",
@@ -220,7 +231,7 @@ const database = {
       ]
     },
     {
-      id: 4,
+      id: 5,
       title: "Japanese Language L-1",
       awardDate: "November 2020",
       subtitle: "I have completed level 1 of Japanese language course, where I learned basic Japanese and Hiragana alphabets",
@@ -228,6 +239,28 @@ const database = {
       largeImageUrl: [
         process.env.PUBLIC_URL + "/images/japaneselvl1.PNG",
         process.env.PUBLIC_URL + "/images/japaneselvl1.PNG"
+      ]
+    },
+    {
+      id: 6,
+      title: "React Nanodegree - Udacity",
+      awardDate: "November 2019",
+      subtitle: "I learned how to build declarative UIs for the web with React, and for iOS and Android with React Native.I also learned how to manage state more predictably with Redux.",
+      imageUrl: process.env.PUBLIC_URL + "/images/reactnd.PNG",
+      largeImageUrl: [
+        process.env.PUBLIC_URL + "/images/reactnd.PNG",
+        process.env.PUBLIC_URL + "/images/reactnd.PNG"
+      ]
+    },
+    {
+      id: 7,
+      title: "Front End Development Nanodegree - Udacity",
+      awardDate: "August 2020",
+      subtitle: "I learned how to to construct responsive websites using CSS, Flexbox and CSS Grid, develop interactive websites and UI applications using JavaScript and HTML, and connect a web application to backend server data using JavaScript.",
+      imageUrl: process.env.PUBLIC_URL + "/images/fend.PNG",
+      largeImageUrl: [
+        process.env.PUBLIC_URL + "/images/fend.PNG",
+        process.env.PUBLIC_URL + "/images/fend.PNG"
       ]
     },
   ],
@@ -361,7 +394,7 @@ const database = {
         year: "2020",
         graduation: "Front-End Development Nanodegree",
         university: "Udacity",
-        details: "I learned how to to construct responsive websites using CSS, Flexbox and CSS Grid, develop interactive websites and UI" +
+        details: "I learned how to to construct responsive websites using CSS, Flexbox and CSS Grid, develop interactive websites and UI " +
         "applications using JavaScript and HTML, and connect a web application to backend server data using JavaScript.",
         download: '/files/FEND.pdf'
       },
@@ -370,7 +403,7 @@ const database = {
         year: "2019",
         graduation: "React Nanodegree",
         university: "Udacity",
-        details: "I learned how to build declarative UIs for the web with React, and for iOS and Android with React Native." +
+        details: "I learned how to build declarative UIs for the web with React, and for iOS and Android with React Native. " +
         "I also learned how to manage state more predictably with Redux.",
         download: '/files/Udacity React.pdf'
       },

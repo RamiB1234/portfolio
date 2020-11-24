@@ -33,10 +33,10 @@ function Header(){
                     <li><NavLink exact to="/"><span>Home</span></NavLink></li>
                     <li><NavLink to="/about"><span>About</span></NavLink></li>
                     <li><NavLink to="/resume"><span>Resume</span></NavLink></li>
+                    <li><NavLink to="/awards"><span>Honors & Awards</span></NavLink></li>
                     <li><NavLink to="/games"><span>Game Portfolio</span></NavLink></li>
                     <li><NavLink to="/webapps"><span>Web App Portfolio</span></NavLink></li>
                     <li><NavLink to="/cpp"><span>C++ Portfolio</span></NavLink></li>
-                    <li><NavLink to="/awards"><span>Honors & Awards</span></NavLink></li>
                     <li><NavLink to="/contact"><span>Contact</span></NavLink></li>
                 </ul>
                 <p className="mi-header-copyright">&copy; {new Date().getFullYear()} <b>Rami Bukhari</b></p>
