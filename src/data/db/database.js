@@ -75,8 +75,8 @@ const database = {
       value: 85
     },
     {
-      title: "jQuery",
-      value: 85
+      title: "C++",
+      value: 80
     },
     {
       title: "ReactJS",
@@ -190,10 +190,10 @@ const database = {
       title: "Hope Hackathon",
       awardDate: "May 2020",
       subtitle: "I have received 1st winner prize with my entry game 'Gun Skaters'. The hackathon had more than 15,000 ideas from around the world and my game has won 1st place in the eGaming category",
-      imageUrl: process.env.PUBLIC_URL + "/images/hackathon1st.PNG",
+      imageUrl: process.env.PUBLIC_URL + "/images/hackathon1st-tn.png",
       largeImageUrl: [
-        process.env.PUBLIC_URL + "/images/hackathon1st.PNG",
-        process.env.PUBLIC_URL + "/images/hackathon1st.PNG"
+        process.env.PUBLIC_URL + "/images/hackathon1st.png",
+        process.env.PUBLIC_URL + "/images/hackathon1st.png"
       ],
       url: 'https://hopehackathon.com/'
     },
@@ -202,10 +202,10 @@ const database = {
       title: "IGN ME Review",
       awardDate: "June 2020",
       subtitle: "IGN ME has reviewd a beta version of my game Gun Skaters and gave it a good score of 7/10",
-      imageUrl: process.env.PUBLIC_URL + "/images/ign.png",
+      imageUrl: process.env.PUBLIC_URL + "/images/ignme-tn.png",
       largeImageUrl: [
-        process.env.PUBLIC_URL + "/images/ign.png",
-        process.env.PUBLIC_URL + "/images/ign.png"
+        process.env.PUBLIC_URL + "/images/ignme.png",
+        process.env.PUBLIC_URL + "/images/ignme.png"
       ]
     },
     {
@@ -213,7 +213,7 @@ const database = {
       title: "Nintendo Certified Developer",
       awardDate: "June 2020",
       subtitle: "I have pitched my award winning game to Nintendo to release it on the Nintendo Switch. It was approved!!",
-      imageUrl: process.env.PUBLIC_URL + "/images/Switch.jpg",
+      imageUrl: process.env.PUBLIC_URL + "/images/Switch-tn.jpg",
       largeImageUrl: [
         process.env.PUBLIC_URL + "/images/Switch.jpg",
         process.env.PUBLIC_URL + "/images/Switch.jpg"
@@ -224,10 +224,10 @@ const database = {
       title: "Game Development Training",
       awardDate: "November 2020",
       subtitle: "I have completed the 3rd Game Development training with Mr. Ken Watanabe (Ex Nintendo Programmer who worked on Splatoon and Pikmin 3) where we learned game development best practices ",
-      imageUrl: process.env.PUBLIC_URL + "/images/gameDev.PNG",
+      imageUrl: process.env.PUBLIC_URL + "/images/gameDev-tn.png",
       largeImageUrl: [
-        process.env.PUBLIC_URL + "/images/gameDev.PNG",
-        process.env.PUBLIC_URL + "/images/gameDev.PNG"
+        process.env.PUBLIC_URL + "/images/gameDev.png",
+        process.env.PUBLIC_URL + "/images/gameDev.png"
       ]
     },
     {
@@ -235,10 +235,10 @@ const database = {
       title: "Japanese Language L-1",
       awardDate: "November 2020",
       subtitle: "I have completed level 1 of Japanese language course, where I learned basic Japanese and Hiragana alphabets",
-      imageUrl: process.env.PUBLIC_URL + "/images/japaneselvl1.PNG",
+      imageUrl: process.env.PUBLIC_URL + "/images/japaneselvl1-tn.png",
       largeImageUrl: [
-        process.env.PUBLIC_URL + "/images/japaneselvl1.PNG",
-        process.env.PUBLIC_URL + "/images/japaneselvl1.PNG"
+        process.env.PUBLIC_URL + "/images/japaneselvl1.png",
+        process.env.PUBLIC_URL + "/images/japaneselvl1.png"
       ]
     },
     {
@@ -246,10 +246,10 @@ const database = {
       title: "React Nanodegree - Udacity",
       awardDate: "November 2019",
       subtitle: "I learned how to build declarative UIs for the web with React, and for iOS and Android with React Native.I also learned how to manage state more predictably with Redux.",
-      imageUrl: process.env.PUBLIC_URL + "/images/reactnd.PNG",
+      imageUrl: process.env.PUBLIC_URL + "/images/reactnd-tn.png",
       largeImageUrl: [
-        process.env.PUBLIC_URL + "/images/reactnd.PNG",
-        process.env.PUBLIC_URL + "/images/reactnd.PNG"
+        process.env.PUBLIC_URL + "/images/reactnd.png",
+        process.env.PUBLIC_URL + "/images/reactnd.png"
       ]
     },
     {
@@ -257,10 +257,10 @@ const database = {
       title: "Front End Development Nanodegree - Udacity",
       awardDate: "August 2020",
       subtitle: "I learned how to to construct responsive websites using CSS, Flexbox and CSS Grid, develop interactive websites and UI applications using JavaScript and HTML, and connect a web application to backend server data using JavaScript.",
-      imageUrl: process.env.PUBLIC_URL + "/images/fend.PNG",
+      imageUrl: process.env.PUBLIC_URL + "/images/fend-tn.png",
       largeImageUrl: [
-        process.env.PUBLIC_URL + "/images/fend.PNG",
-        process.env.PUBLIC_URL + "/images/fend.PNG"
+        process.env.PUBLIC_URL + "/images/fend.png",
+        process.env.PUBLIC_URL + "/images/fend.png"
       ]
     },
   ],
