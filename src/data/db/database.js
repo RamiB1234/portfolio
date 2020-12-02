@@ -8,7 +8,7 @@ const database = {
     age: 31,
     phone: '+966 599565705',
     nationality: 'Saudi',
-    language: 'Arabic, English',
+    language: 'Arabic, English, Japanese',
     email: 'rbisthebest@hotmail.com',
     address: 'Jeddah, North Abhor, Saudi Arabia',
     freelanceStatus: 'Available',
