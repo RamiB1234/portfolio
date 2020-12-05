@@ -232,17 +232,6 @@ const database = {
     },
     {
       id: 5,
-      title: "Japanese Language L-1",
-      awardDate: "November 2020",
-      subtitle: "I have completed level 1 of Japanese language course, where I learned basic Japanese and Hiragana alphabets",
-      imageUrl: process.env.PUBLIC_URL + "/images/japaneselvl1-tn.png",
-      largeImageUrl: [
-        process.env.PUBLIC_URL + "/images/japaneselvl1.png",
-        process.env.PUBLIC_URL + "/images/japaneselvl1.png"
-      ]
-    },
-    {
-      id: 6,
       title: "React Nanodegree - Udacity",
       awardDate: "November 2019",
       subtitle: "I learned how to build declarative UIs for the web with React, and for iOS and Android with React Native.I also learned how to manage state more predictably with Redux.",
@@ -253,7 +242,7 @@ const database = {
       ]
     },
     {
-      id: 7,
+      id: 6,
       title: "Front End Development Nanodegree - Udacity",
       awardDate: "August 2020",
       subtitle: "I learned how to to construct responsive websites using CSS, Flexbox and CSS Grid, develop interactive websites and UI applications using JavaScript and HTML, and connect a web application to backend server data using JavaScript.",
@@ -263,6 +252,28 @@ const database = {
         process.env.PUBLIC_URL + "/images/fend.png"
       ]
     },
+    {
+      id: 7,
+      title: "Japanese Language L-1",
+      awardDate: "November 2020",
+      subtitle: "I have completed level 1 of Japanese language course, where I learned basic Japanese and Hiragana alphabets",
+      imageUrl: process.env.PUBLIC_URL + "/images/japaneselvl1-tn.png",
+      largeImageUrl: [
+        process.env.PUBLIC_URL + "/images/japaneselvl1.png",
+        process.env.PUBLIC_URL + "/images/japaneselvl1.png"
+      ]
+    },
+    {
+      id: 8,
+      title: "Japanese Language L-2",
+      awardDate: "December 2020",
+      subtitle: "I have completed level 2 of Japanese language course, where I learned basic Japanese and Katakana alphabets",
+      imageUrl: process.env.PUBLIC_URL + "/images/japaneselvl2-tn.png",
+      largeImageUrl: [
+        process.env.PUBLIC_URL + "/images/japaneselvl2.png",
+        process.env.PUBLIC_URL + "/images/japaneselvl2.png"
+      ]
+    }
   ],
   webPortfolios: [
       {
