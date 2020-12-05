@@ -183,6 +183,13 @@ const database = {
       imageUrl: process.env.PUBLIC_URL + "/images/monitor.png",
       git: 'https://github.com/RamiB1234/linux-system-monitor'
     },
+    {
+      id: 3,
+      title: "Memory-Management-Chatbot",
+      subtitle: "A chatbot built with C++ and optimized from a memory management perspective using concepts such as: Smart Pointers, Move Semantics and The Rule of Five ",
+      imageUrl: process.env.PUBLIC_URL + "/images/chatbot_demo.gif",
+      git: 'https://github.com/RamiB1234/memory-management-chatbot'
+    },
   ],
   awards: [
     {
