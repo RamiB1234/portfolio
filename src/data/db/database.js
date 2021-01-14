@@ -5,7 +5,7 @@ const database = {
     name: 'Rami Bukhari',
     aboutContent: "I'm a passionate programmer, I develop web applications during the day, and make games at night. Game development is my "+
     "number one passion in life",
-    age: 31,
+    birthdate: "September 23, 1988",
     phone: '+966 599565705',
     nationality: 'Saudi',
     language: 'Arabic, English, Japanese',
@@ -189,6 +189,13 @@ const database = {
       subtitle: "A chatbot built with C++ and optimized from a memory management perspective using concepts such as: Smart Pointers, Move Semantics and The Rule of Five ",
       imageUrl: process.env.PUBLIC_URL + "/images/chatbot_demo.gif",
       git: 'https://github.com/RamiB1234/memory-management-chatbot'
+    },
+    {
+      id: 4,
+      title: "Concurrent-Traffic-Simulation",
+      subtitle: "It's a traffic simulation in which vehicles are moving along streets and are crossing intersections according to traffic lights. Each element of these traffic objects runs in its own thread. ",
+      imageUrl: process.env.PUBLIC_URL + "/images/traffic_simulation.gif",
+      git: 'https://github.com/RamiB1234/concurrent-traffic-simulator'
     },
   ],
   awards: [

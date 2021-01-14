@@ -84,8 +84,8 @@ function About(){
                   {!information.name ? null : <li>
                     <b>Full Name</b> {information.name}
                   </li>}
-                  {!information.age ? null : <li>
-                    <b>Age</b> {information.age} Years
+                  {!information.birthdate ? null : <li>
+                    <b>Birth Date</b> {information.birthdate}
                   </li>}
                   {!information.phone ? null : <li>
                     <b>Phone</b> {information.phone}
