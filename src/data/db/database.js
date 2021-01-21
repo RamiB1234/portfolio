@@ -200,7 +200,7 @@ const database = {
     {
       id: 5,
       title: "Pong-Cpp",
-      subtitle: "It's a pong game clone in C++. I used SDL library to take care of rendering and input detection  ",
+      subtitle: "It's a clone of the classic pong game written in C++. I used SDL library to take care of rendering and input detection  ",
       imageUrl: process.env.PUBLIC_URL + "/images/pong-game.gif",
       git: 'https://github.com/RamiB1234/pong-cpp'
     }
@@ -275,6 +275,19 @@ const database = {
     },
     {
       id: 7,
+      title: "C++ Nanodegree - Udacity",
+      awardDate: "January 2021",
+      subtitle: "I learned how to write good ,effecient and well designed programs in C++. I learned about advanced OOP topics such as templates and mutiple inheritance, "+
+      "I also learned about how to manage memory propery and to write concurrent programs",
+      imageUrl: process.env.PUBLIC_URL + "/images/cpp-nd-tn.png",
+      largeImageUrl: [
+        process.env.PUBLIC_URL + "/images/cpp-nd.png",
+        process.env.PUBLIC_URL + "/images/cpp-nd.png"
+      ],
+      git: 'https://github.com/RamiB1234/cpp-nanodegree-ducumentation'
+    },
+    {
+      id: 8,
       title: "Japanese Language L-1",
       awardDate: "November 2020",
       subtitle: "I have completed level 1 of Japanese language course, where I learned basic Japanese and Hiragana alphabets",
@@ -285,7 +298,7 @@ const database = {
       ]
     },
     {
-      id: 8,
+      id: 9,
       title: "Japanese Language L-2",
       awardDate: "December 2020",
       subtitle: "I have completed level 2 of Japanese language course, where I learned basic Japanese and Katakana alphabets",
@@ -296,7 +309,7 @@ const database = {
       ]
     },
     {
-      id: 9,
+      id: 10,
       title: "Japanese Language L-3",
       awardDate: "January 2021",
       subtitle: "I have completed level 3 of Japanese language course, where I learned basic Japanese conversations",
@@ -434,15 +447,24 @@ const database = {
     educationExperience: [
       {
         id: 1,
+        year: "2021",
+        graduation: "C++ Nanodegree",
+        university: "Udacity",
+        details: "I learned how to write good ,effecient and well designed programs in C++. I learned about advanced OOP topics such as templates and mutiple inheritance, "+
+        "I also learned about how to manage memory propery and to write concurrent programs",
+        download: '/files/cpp-nd.pdf'
+      },
+      {
+        id: 2,
         year: "2020",
         graduation: "Front-End Development Nanodegree",
         university: "Udacity",
-        details: "I learned how to to construct responsive websites using CSS, Flexbox and CSS Grid, develop interactive websites and UI " +
+        details: "I learned how to construct responsive websites using CSS, Flexbox and CSS Grid, develop interactive websites and UI " +
         "applications using JavaScript and HTML, and connect a web application to backend server data using JavaScript.",
         download: '/files/FEND.pdf'
       },
       {
-        id: 2,
+        id: 3,
         year: "2019",
         graduation: "React Nanodegree",
         university: "Udacity",
@@ -451,7 +473,7 @@ const database = {
         download: '/files/Udacity React.pdf'
       },
       {
-        id: 3,
+        id: 4,
         year: "2008 - 2013",
         graduation: "Bachelor of Science, Electrical Engineering",
         university: "King AbdulAziz University",
