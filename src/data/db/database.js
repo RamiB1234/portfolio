@@ -197,6 +197,13 @@ const database = {
       imageUrl: process.env.PUBLIC_URL + "/images/traffic_simulation.gif",
       git: 'https://github.com/RamiB1234/concurrent-traffic-simulator'
     },
+    {
+      id: 5,
+      title: "Pong-Cpp",
+      subtitle: "It's a pong game clone in C++. I used SDL library to take care of rendering and input detection  ",
+      imageUrl: process.env.PUBLIC_URL + "/images/pong-game.gif",
+      git: 'https://github.com/RamiB1234/pong-cpp'
+    }
   ],
   awards: [
     {
@@ -286,6 +293,17 @@ const database = {
       largeImageUrl: [
         process.env.PUBLIC_URL + "/images/japaneselvl2.png",
         process.env.PUBLIC_URL + "/images/japaneselvl2.png"
+      ]
+    },
+    {
+      id: 9,
+      title: "Japanese Language L-3",
+      awardDate: "January 2021",
+      subtitle: "I have completed level 3 of Japanese language course, where I learned basic Japanese conversations",
+      imageUrl: process.env.PUBLIC_URL + "/images/japaneselvl3-tn.png",
+      largeImageUrl: [
+        process.env.PUBLIC_URL + "/images/japaneselvl3.png",
+        process.env.PUBLIC_URL + "/images/japaneselvl3.png"
       ]
     }
   ],
