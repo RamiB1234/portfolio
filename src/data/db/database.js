@@ -119,6 +119,19 @@ const database = {
     },
     {
       id: 2,
+      title: "Ur-Revisited",
+      releaseDate: "April 2021",
+      engine: "HTML5/Javascript",
+      role: "Team Member",
+      genre: "Strategy/Board Game",
+      platforms: "Browser",
+      responsibilities: 'Sound effects (piece selection, piece move), piece knockback when landed on it feature, how to play overlay support, instructions screen implementation',
+      imageUrl: process.env.PUBLIC_URL + "/images/ur-revisited.gif",
+      url: 'https://numenorian.itch.io/ur-revisited',
+      git: 'https://github.com/gamkedo-la/ur-revisited'
+    },
+    {
+      id: 3,
       title: "Solar Cinders",
       releaseDate: "November 2020",
       engine: "Unity",
@@ -131,7 +144,7 @@ const database = {
       git: 'https://github.com/gamkedo-la/solarcinders'
     },
     {
-      id: 3,
+      id: 4,
       title: "Mercurial Luminance",
       releaseDate: "April 2020",
       engine: "Unity",
@@ -144,13 +157,13 @@ const database = {
       git: 'https://github.com/gamkedo-la/mercurial-luminance'
     },
     {
-      id: 4,
+      id: 5,
       title: "Descend Below the Crypts",
       releaseDate: "February 2020",
       engine: "HTML5/Javascript",
       role: "Team Member",
       genre: "Isometric adventure",
-      platforms: "HTML5",
+      platforms: "Browser",
       responsibilities: "Minimap, fast walk debug feature, invulnerable cheat, character positions on minimap, HP/MP HUD bars, key & gold display, inventory mouse support, level loading bug fix, animation code improvements, tooltip feature, abilities cooldown, assorted bug fixes, heal effect, melee attacks, abilities key shortcuts, shield item, enemy treasure drop, fireball spell, cleric heal unlock, heal effect, freeze spell, attack range",
       imageUrl: process.env.PUBLIC_URL + "/images/descend.gif",
       url: 'https://itch.io/queue/c/188585/hometeam-gamedev-formerly-gamkedo-club?game_id=566053',
