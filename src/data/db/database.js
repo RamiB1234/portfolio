@@ -328,8 +328,41 @@ const database = {
       subtitle: "I have completed level 3 of Japanese language course, where I learned basic Japanese conversations",
       imageUrl: process.env.PUBLIC_URL + "/images/japaneselvl3-tn.png",
       largeImageUrl: [
-        process.env.PUBLIC_URL + "/images/japaneselvl3.png",
-        process.env.PUBLIC_URL + "/images/japaneselvl3.png"
+        process.env.PUBLIC_URL + "/images/japaneselvl33.png",
+        process.env.PUBLIC_URL + "/images/japaneselvl33.png"
+      ]
+    },
+    {
+      id: 11,
+      title: "Japanese Language L-4",
+      awardDate: "January 2021",
+      subtitle: "I have completed level 4 of Japanese language course, where I learned basic Japanese grammer and around 50 Kanjis",
+      imageUrl: process.env.PUBLIC_URL + "/images/japaneselvl4-tn.png",
+      largeImageUrl: [
+        process.env.PUBLIC_URL + "/images/japaneselvl4.png",
+        process.env.PUBLIC_URL + "/images/japaneselvl4.png"
+      ]
+    },
+    {
+      id: 12,
+      title: "Japanese Language L-5",
+      awardDate: "February 2021",
+      subtitle: "I have completed level 5 of Japanese language course, where I learned basic Japanese grammer and around 50 Kanjis",
+      imageUrl: process.env.PUBLIC_URL + "/images/japaneselvl5-tn.png",
+      largeImageUrl: [
+        process.env.PUBLIC_URL + "/images/japaneselvl5.png",
+        process.env.PUBLIC_URL + "/images/japaneselvl5.png"
+      ]
+    },
+    {
+      id: 13,
+      title: "Japanese Language L-6",
+      awardDate: "March 2021",
+      subtitle: "I have completed level 6 of Japanese language course, where I revised basic Japanese language and Kanjis",
+      imageUrl: process.env.PUBLIC_URL + "/images/japaneselvl6-tn.png",
+      largeImageUrl: [
+        process.env.PUBLIC_URL + "/images/japaneselvl6.png",
+        process.env.PUBLIC_URL + "/images/japaneselvl6.png"
       ]
     }
   ],
