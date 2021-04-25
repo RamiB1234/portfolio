@@ -454,7 +454,7 @@ const database = {
       {
         id: 1,
         year: "2019 - Present",
-        position: "IT Application Developer",
+        position: "Senior Full Stack Developer",
         company: "Prince Mohammad Bin Salman College of Business & Entrepreneurship (MBSC)",
         details: "My job is to develop new applications based on top management requirements "+
         "and to maintain existing applications as well. I’m also working on integrating solutions together "+
