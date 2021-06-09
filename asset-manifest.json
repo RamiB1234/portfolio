@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.f5637df9.chunk.css",
-    "main.js": "/static/js/main.020891d4.chunk.js",
-    "main.js.map": "/static/js/main.020891d4.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.d980676b.js",
-    "runtime~main.js.map": "/static/js/runtime~main.d980676b.js.map",
-    "static/css/2.48c3d4a3.chunk.css": "/static/css/2.48c3d4a3.chunk.css",
-    "static/js/2.78727e7f.chunk.js": "/static/js/2.78727e7f.chunk.js",
-    "static/js/2.78727e7f.chunk.js.map": "/static/js/2.78727e7f.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.8488c3da98c46f85f234988fe4402b34.js": "/precache-manifest.8488c3da98c46f85f234988fe4402b34.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.48c3d4a3.chunk.css.map": "/static/css/2.48c3d4a3.chunk.css.map",
-    "static/css/main.f5637df9.chunk.css.map": "/static/css/main.f5637df9.chunk.css.map",
-    "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg"
+    "main.css": "/portfolio/static/css/main.f5637df9.chunk.css",
+    "main.js": "/portfolio/static/js/main.9a0cf8e8.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9a0cf8e8.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.5bba913d.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.5bba913d.js.map",
+    "static/css/2.f7c64eb8.chunk.css": "/portfolio/static/css/2.f7c64eb8.chunk.css",
+    "static/js/2.78727e7f.chunk.js": "/portfolio/static/js/2.78727e7f.chunk.js",
+    "static/js/2.78727e7f.chunk.js.map": "/portfolio/static/js/2.78727e7f.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.b373ed97826cf3c92ca73e27a801ba46.js": "/portfolio/precache-manifest.b373ed97826cf3c92ca73e27a801ba46.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.f7c64eb8.chunk.css.map": "/portfolio/static/css/2.f7c64eb8.chunk.css.map",
+    "static/css/main.f5637df9.chunk.css.map": "/portfolio/static/css/main.f5637df9.chunk.css.map",
+    "static/media/slick-theme.css": "/portfolio/static/media/slick.f97e3bbf.svg"
   }
 }
