@@ -119,6 +119,31 @@ const database = {
     },
     {
       id: 2,
+      title: "Super Highway Racing",
+      releaseDate: "July 2021",
+      engine: "Unity",
+      role: "Sole Developer",
+      genre: "2D Top Down Racing",
+      platforms: "Android",
+      responsibilities: "This is a fast paced game where you control a fast car to avoid slow traffic. Beware of going out of fuel by collecting fuel tanks. One mistake means the end!",
+      imageUrl: process.env.PUBLIC_URL + "/images/cars.png",
+      url: 'https://play.google.com/store/apps/details?id=com.FunnySyntaxSoftware.S.HighwayRacing'
+    },
+    {
+      id: 3,
+      title: "Planetary Lander",
+      releaseDate: "October 2021",
+      engine: "Unity",
+      role: "Sole Developer",
+      genre: "2D Scroller",
+      platforms: "WebGL",
+      responsibilities: "I designed and developed this game in NASA Space App Challege 2021 as it was one of the challenges. In this game, the player controlls a planetary and tries to land successfully on the surface of the moon while trying to avoid floating meteoroids.",
+      imageUrl: process.env.PUBLIC_URL + "/images/lander.png",
+      url: 'https://ramib1234.github.io/planetary-lander/',
+      git: 'https://github.com/RamiB1234/planetary-lander'
+    },
+    {
+      id: 4,
       title: "Ur-Revisited",
       releaseDate: "April 2021",
       engine: "HTML5/Javascript",
@@ -131,7 +156,7 @@ const database = {
       git: 'https://github.com/gamkedo-la/ur-revisited'
     },
     {
-      id: 3,
+      id: 5,
       title: "Solar Cinders",
       releaseDate: "November 2020",
       engine: "Unity",
@@ -144,7 +169,7 @@ const database = {
       git: 'https://github.com/gamkedo-la/solarcinders'
     },
     {
-      id: 4,
+      id: 6,
       title: "Mercurial Luminance",
       releaseDate: "April 2020",
       engine: "Unity",
@@ -157,7 +182,7 @@ const database = {
       git: 'https://github.com/gamkedo-la/mercurial-luminance'
     },
     {
-      id: 5,
+      id: 7,
       title: "Descend Below the Crypts",
       releaseDate: "February 2020",
       engine: "HTML5/Javascript",
@@ -168,7 +193,7 @@ const database = {
       imageUrl: process.env.PUBLIC_URL + "/images/descend.gif",
       url: 'https://itch.io/queue/c/188585/hometeam-gamedev-formerly-gamkedo-club?game_id=566053',
       git: 'https://github.com/gamkedo-la/Descend-Below-the-Crypts'
-    },
+    }
     /*{
       id: 2,
       title: "Coffee Mug",
@@ -301,6 +326,18 @@ const database = {
     },
     {
       id: 8,
+      title: "Galactic Problem-Solver - NASA",
+      awardDate: "October 2021",
+      subtitle: "I participated in NASA Space Apps Challege and created a 2D game that simulates going back to the moon",
+      imageUrl: process.env.PUBLIC_URL + "/images/nasa-tn.png",
+      largeImageUrl: [
+        process.env.PUBLIC_URL + "/images/nasa.png",
+        process.env.PUBLIC_URL + "/images/nasa.png"
+      ],
+      git: 'https://github.com/RamiB1234/planetary-lander'
+    },
+    {
+      id: 9,
       title: "Japanese Language L-1",
       awardDate: "November 2020",
       subtitle: "I have completed level 1 of Japanese language course, where I learned basic Japanese and Hiragana alphabets",
@@ -311,7 +348,7 @@ const database = {
       ]
     },
     {
-      id: 9,
+      id: 10,
       title: "Japanese Language L-2",
       awardDate: "December 2020",
       subtitle: "I have completed level 2 of Japanese language course, where I learned basic Japanese and Katakana alphabets",
@@ -322,7 +359,7 @@ const database = {
       ]
     },
     {
-      id: 10,
+      id: 11,
       title: "Japanese Language L-3",
       awardDate: "January 2021",
       subtitle: "I have completed level 3 of Japanese language course, where I learned basic Japanese conversations",
@@ -333,7 +370,7 @@ const database = {
       ]
     },
     {
-      id: 11,
+      id: 12,
       title: "Japanese Language L-4",
       awardDate: "January 2021",
       subtitle: "I have completed level 4 of Japanese language course, where I learned basic Japanese grammer and around 50 Kanjis",
@@ -344,7 +381,7 @@ const database = {
       ]
     },
     {
-      id: 12,
+      id: 13,
       title: "Japanese Language L-5",
       awardDate: "February 2021",
       subtitle: "I have completed level 5 of Japanese language course, where I learned basic Japanese grammer and around 50 Kanjis",
@@ -355,7 +392,7 @@ const database = {
       ]
     },
     {
-      id: 13,
+      id: 14,
       title: "Japanese Language L-6",
       awardDate: "March 2021",
       subtitle: "I have completed level 6 of Japanese language course, where I revised basic Japanese language and Kanjis",
@@ -363,6 +400,17 @@ const database = {
       largeImageUrl: [
         process.env.PUBLIC_URL + "/images/japaneselvl6.png",
         process.env.PUBLIC_URL + "/images/japaneselvl6.png"
+      ]
+    },
+    {
+      id: 15,
+      title: "Comprehensive Beginner Japanese Course",
+      awardDate: "August 2021",
+      subtitle: "I have completed the comprehensive beginner Japanese course where we studied Nihongo Daijobu 1st book",
+      imageUrl: process.env.PUBLIC_URL + "/images/japanese beginner-tn.png",
+      largeImageUrl: [
+        process.env.PUBLIC_URL + "/images/japanese beginner-lg.png",
+        process.env.PUBLIC_URL + "/images/japanese beginner-lg.png"
       ]
     }
   ],
